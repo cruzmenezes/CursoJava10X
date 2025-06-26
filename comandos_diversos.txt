@@ -1,0 +1,2 @@
+git pull origin main --rebase
+O --rebase vai tentar reorganizar suas alterações em cima das que já estão no repositório remoto, deixando o histórico mais limpo.
