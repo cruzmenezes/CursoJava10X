@@ -19,4 +19,8 @@ public class PlantaCasa {
         System.out.println("Cor da casa: " + corCasa);
 
     }
+
+    public  int somarMetragem(){
+        return metragem * numeroBanheiro + numeroBanheiro;
+    }
 }
