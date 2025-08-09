@@ -10,4 +10,9 @@ public class Cachorro extends Animal{
     public void emitirSom(){
         System.out.println(nome + " diz: au au....");
     }
+
+    @Override
+    public void dormir() {
+        super.dormir();
+    }
 }

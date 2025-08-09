@@ -14,6 +14,6 @@ abstract class Animal {
     public abstract void emitirSom();
 
     public  void dormir(){
-        System.out.println(nome + "esta dormindo...");
+        System.out.println(nome + " esta dormindo...");
     }
 }
