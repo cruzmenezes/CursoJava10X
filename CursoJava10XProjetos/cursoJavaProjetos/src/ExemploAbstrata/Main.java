@@ -19,5 +19,11 @@ public class Main {
         Animal cavalo = new Cavalo("Felix");
         cavalo.emitirSom();
         cavalo.dormir();
+
+        System.out.println("----------------");
+
+        Animal vaca = new Vaca("Mimosa");
+        vaca.emitirSom();
+        vaca.dormir();
     }
 }
