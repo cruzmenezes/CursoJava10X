@@ -10,5 +10,15 @@ public class Main {
 
         fusca.acelerar();
         fusca.exibirInf();
+
+        System.out.println("-------------");
+
+        Carro fiesta = new Carro();
+        fiesta.marca = "fiat";
+        fiesta.modelo = "fiesta";
+        fiesta.ano = 2000;
+
+        fiesta.acelerar();
+        fiesta.exibirInf();
     }
 }
